@@ -165,3 +165,20 @@ All colors MUST be HSL.
     background: var(--gradient-accent);
   }
 }
+
+
+@keyframes slide-vertical {
+  0% { transform: translateY(0%); }
+  22.22% { transform: translateY(0%); } /* Hold ~1s */
+  33.33% { transform: translateY(-25%); } /* Slide 0.5s */
+  55.56% { transform: translateY(-25%); } /* Hold ~1s */
+  66.67% { transform: translateY(-50%); } /* Slide 0.5s */
+  88.89% { transform: translateY(-50%); } /* Hold ~1s */
+  100% { transform: translateY(-75%); } /* Slide 0.5s to loop */
+}
+
+.animate-slide-vertical {
+  animation: slide-vertical 4.5s infinite;
+  display: inline-block;
+  transition: transform 0.5s ease-in-out; /* Smooth transition */
+}

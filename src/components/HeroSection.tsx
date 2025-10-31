@@ -14,10 +14,10 @@ export const HeroSection = () => {
             Chinh phục mọi kỳ thi với 
             <span className="inline-block overflow-hidden align-bottom h-[1.2em]">
               <span className="inline-block animate-slide-vertical">
-                <span className="block">thi chuẩn đề,</span>
-                <span className="block">luyện chuyên sâu,</span>
-                <span className="block">thi đấu tuần.</span>
-                <span className="block">thi chuẩn đề,</span>
+                <span className="block">thi chuẩn đề</span>
+                <span className="block">luyện chuyên sâu</span>
+                <span className="block">thi đấu tuần</span>
+                <span className="block">thi chuẩn đề</span> {/* Duplicate for seamless loop */}
               </span>
             </span>
           </h1>
