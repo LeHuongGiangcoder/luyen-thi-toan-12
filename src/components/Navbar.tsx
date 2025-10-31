@@ -9,16 +9,16 @@ export const Navbar = () => {
             Home
           </Link>
           <Link to="/Luyện sâu" className="px-4 py-2 rounded-full text-muted-foreground hover:text-primary hover:bg-primary/10">
-            Practice
+            Luyện sâu
           </Link>
           <Link to="/Kiểm tra" className="px-4 py-2 rounded-full text-muted-foreground hover:text-primary hover:bg-primary/10">
-            Exams
+            Kiểm tra
           </Link>
           <Link to="/Xếp hạng" className="px-4 py-2 rounded-full text-muted-foreground hover:text-primary hover:bg-primary/10">
-            Leaderboard
+            Xếp hạng
           </Link>
           <Link to="/Đăng nhập" className="px-4 py-2 rounded-full text-muted-foreground hover:text-primary hover:bg-primary/10">
-            Login
+            Đăng nhập
           </Link>
         </div>
       </div>
