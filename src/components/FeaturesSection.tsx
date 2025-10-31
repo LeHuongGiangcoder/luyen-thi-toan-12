@@ -5,13 +5,13 @@ export const FeaturesSection = () => {
   const features = [
     {
       icon: FileText,
-      title: "Thi chuẩn kỳ thi",
+      title: "Thi chuẩn thi thật",
       description: "Hệ thống bài kiểm tra đa dạng, bám sát theo cấu trúc các kỳ thi thật. Đánh giá năng lực và xác định điểm yếu cần cải thiện.",
       accentColor: "primary" as const,
     },
     {
       icon: BookOpen,
-      title: "Thi thử chuyên đề",
+      title: "Luyện sâu chuyên đề",
       description: "Luyện tập chuyên sâu theo từng chuyên đề cụ thể. Các câu hỏi được hệ thống đề xuất theo mức độ phù hợp từ cơ bản đến nâng cao.",
       accentColor: "accent" as const,
     },
