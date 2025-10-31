@@ -11,12 +11,11 @@ export const HeroSection = () => {
           </div>
           
           <h1 className="text-h1 md:text-[48px] lg:text-[56px] font-bold text-primary">
-            Chinh Phục Kỳ Thi THPT Quốc Gia
+            Chinh phục mọi kỳ thi với thi chuẩn đề, luyện chuyên sâu, thi đấu tuần. 
           </h1>
           
           <p className="text-body-lg md:text-[18px] text-muted-foreground max-w-2xl mx-auto font-subheading">
-            Nền tảng luyện thi trực tuyến hàng đầu với hệ thống bài tập phong phú, 
-            thi thử chuyên đề và thi đấu tuần hấp dẫn
+            Nền tảng luyện thi trực tuyến hàng đầu Việt Nam cho học sinh lớp 12 
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">

@@ -5,19 +5,19 @@ export const FeaturesSection = () => {
   const features = [
     {
       icon: FileText,
-      title: "Thi Bài Kiểm Tra",
-      description: "Hệ thống bài kiểm tra đa dạng theo từng môn học và chủ đề. Đánh giá năng lực và xác định điểm yếu cần cải thiện.",
+      title: "Thi chuẩn kỳ thi",
+      description: "Hệ thống bài kiểm tra đa dạng, bám sát theo cấu trúc các kỳ thi thật. Đánh giá năng lực và xác định điểm yếu cần cải thiện.",
       accentColor: "primary" as const,
     },
     {
       icon: BookOpen,
-      title: "Thi Thử Chuyên Đề",
-      description: "Luyện tập chuyên sâu theo từng chuyên đề cụ thể. Bám sát cấu trúc đề thi THPT Quốc Gia mới nhất.",
+      title: "Thi thử chuyên đề",
+      description: "Luyện tập chuyên sâu theo từng chuyên đề cụ thể. Các câu hỏi được hệ thống đề xuất theo mức độ phù hợp từ cơ bản đến nâng cao.",
       accentColor: "accent" as const,
     },
     {
       icon: Trophy,
-      title: "Thi Đấu Tuần",
+      title: "Thi đấu tuần",
       description: "Tham gia cuộc thi hàng tuần với các học sinh trên toàn quốc. Đua top, nhận thưởng và khẳng định năng lực.",
       accentColor: "primary" as const,
     },
