@@ -11,7 +11,15 @@ export const HeroSection = () => {
           </div>
           
           <h1 className="text-h1 md:text-[48px] lg:text-[56px] font-bold text-primary">
-            Chinh phục mọi kỳ thi với thi chuẩn đề, luyện chuyên sâu, thi đấu tuần. 
+            Chinh phục mọi kỳ thi với 
+            <span className="inline-block overflow-hidden align-bottom h-[1.2em]">
+              <span className="inline-block animate-slide-vertical">
+                <span className="block">thi chuẩn đề,</span>
+                <span className="block">luyện chuyên sâu,</span>
+                <span className="block">thi đấu tuần.</span>
+                <span className="block">thi chuẩn đề,</span>
+              </span>
+            </span>
           </h1>
           
           <p className="text-body-lg md:text-[18px] text-muted-foreground max-w-2xl mx-auto font-subheading">
@@ -38,3 +46,19 @@ export const HeroSection = () => {
     </section>
   );
 };
+
+<style>{`
+  @keyframes slide-vertical {
+    0% { transform: translateY(0%); }
+    25% { transform: translateY(0%); }
+    33.33% { transform: translateY(-25%); }
+    58.33% { transform: translateY(-25%); }
+    66.66% { transform: translateY(-50%); }
+    91.66% { transform: translateY(-50%); }
+    100% { transform: translateY(-75%); }
+  }
+  .animate-slide-vertical {
+    animation: slide-vertical 9s infinite;
+    display: inline-block;
+  }
+`}</style>
