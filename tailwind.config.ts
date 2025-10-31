@@ -13,6 +13,20 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        heading: ['Montserrat', 'sans-serif'],
+        subheading: ['Raleway', 'sans-serif'],
+        body: ['Source Sans Pro', 'sans-serif'],
+      },
+      fontSize: {
+        'h1': ['40px', { lineHeight: '1.2', fontWeight: '700' }],
+        'h2': ['28px', { lineHeight: '1.2', fontWeight: '700' }],
+        'h3': ['24px', { lineHeight: '1.2', fontWeight: '700' }],
+        'subhead-lg': ['24px', { lineHeight: '1.3', fontWeight: '600' }],
+        'subhead': ['20px', { lineHeight: '1.4', fontWeight: '500' }],
+        'body-lg': ['16px', { lineHeight: '1.6', fontWeight: '400' }],
+        'body': ['14px', { lineHeight: '1.7', fontWeight: '400' }],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,16 +60,6 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
-        },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
         },
       },
       borderRadius: {
