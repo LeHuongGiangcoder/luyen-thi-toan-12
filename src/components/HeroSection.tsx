@@ -26,19 +26,13 @@ export const HeroSection = () => {
             Nền tảng luyện thi trực tuyến hàng đầu Việt Nam cho học sinh lớp 12 
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+          <div className="flex justify-center pt-4">
             <Button 
               size="lg" 
               className="bg-gradient-primary text-white hover:opacity-90 transition-opacity text-base font-semibold px-8 py-6 rounded-xl"
+              onClick={() => document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Bắt Đầu Ngay
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="glass border-primary/20 text-primary hover:bg-primary/10 text-base font-semibold px-8 py-6 rounded-xl"
-            >
-              Tìm Hiểu Thêm
             </Button>
           </div>
         </div>

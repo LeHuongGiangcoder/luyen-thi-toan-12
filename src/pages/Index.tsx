@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <HeroSection />
-      <FeaturesSection />
+      <FeaturesSection id="features" />
     </div>
   );
 };

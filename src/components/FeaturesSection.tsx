@@ -1,7 +1,11 @@
 import { FileText, BookOpen, Trophy } from "lucide-react";
 import { FeatureCard } from "./FeatureCard";
 
-export const FeaturesSection = () => {
+interface FeaturesSectionProps {
+  id?: string;
+}
+
+export const FeaturesSection = ({ id }: FeaturesSectionProps) => {
   const features = [
     {
       icon: FileText,
@@ -24,7 +28,7 @@ export const FeaturesSection = () => {
   ];
 
   return (
-    <section className="py-20 px-4">
+    <section id={id} className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-h2 md:text-[36px] font-bold text-primary mb-4 font-heading">
