@@ -14,8 +14,8 @@ export const Navbar = () => {
           <Link to="/Kiểm tra" className="px-4 py-2 rounded-full text-muted-foreground hover:text-primary hover:bg-primary/10">
             Kiểm tra
           </Link>
-          <Link to="/Xếp hạng" className="px-4 py-2 rounded-full text-muted-foreground hover:text-primary hover:bg-primary/10">
-            Xếp hạng
+          <Link to="/Bạn bè" className="px-4 py-2 rounded-full text-muted-foreground hover:text-primary hover:bg-primary/10">
+            Bạn bè
           </Link>
           <Link to="/Đăng nhập" className="px-4 py-2 rounded-full text-muted-foreground hover:text-primary hover:bg-primary/10">
             Đăng nhập
